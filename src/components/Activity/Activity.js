@@ -1,8 +1,11 @@
 import React from 'react';
 import './Activity.css'
 
-const Activity = (props) => {
-  const  {id, name, time, img, description} = props.activity;
+const Activity = ({activity, addToList}) => {
+//   const  {id, name, time, img, description} = props.activity;
+  const  {id, name, time, img, description} = activity;
+//   const {addToList} = props.addToList;
+//   console.log(addToList)
     return (
         <div>
             
@@ -13,7 +16,7 @@ const Activity = (props) => {
          <p>{description}</p>
          <p>time: <span className='activity-time'> {time}s</span> </p>
           </div>
-          <button className='btn-list btn-text'>Add to lsit</button>
+          <button onClick={()=>addToList(activity)} className='btn-list btn-text'>Add to lsit</button>
         </div>
         </div>
     );

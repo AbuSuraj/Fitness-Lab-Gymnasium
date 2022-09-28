@@ -33,6 +33,11 @@ margin-right: 2px;
     justify-content: space-around;
     background-color: whitesmoke;
     border-radius: 20px;
+    padding: 10px;
+}
+.add-break button{
+    border-radius: 7px;
+    background-color:antiquewhite;
 }
 .Workout-specifics h4{
     background-color: whitesmoke;

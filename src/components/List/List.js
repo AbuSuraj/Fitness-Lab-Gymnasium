@@ -3,8 +3,15 @@ import proPic from '../../suraj.jpg';
 import './List.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const List = () => {
+import Swal from 'sweetalert2';
+const List = ({time}) => {
+//  console.log(time)
     const notify = () => toast("Congratulations! you have completed!");
+    const completed = () => {Swal.fire(
+        'Good job!',
+        'You have completed your todays exercise!',
+        'success'
+      )}
     return (
         <div>
          <div className='list-header'>
@@ -41,19 +48,19 @@ const List = () => {
          <div className='add-break-container'>
             <h3>Add a break</h3>
             <div className='add-break'>
-                <p>{10}s</p>
-                <p>{20}s</p>
-                <p>{30}s</p>
-                <p>{40}s</p>
+                <button>{10}s</button>
+                <button>{20}s</button>
+                <button>{30}s</button>
+                <button>{40}s</button>
             </div>
          </div>
          <div className='Workout-specifics'>
             <h3>Workout Specifics</h3>
-            <h4>Exercise Time: {}seconds</h4>
+            <h4>Exercise Time: {time} seconds</h4>
             <h4>Break Time: {}seconds</h4>
          </div>
          <div>
-        <button className='activity-completed-btn' onClick={notify}>Activity Completed</button>
+        <button className='activity-completed-btn' onClick={completed}>Activity Completed</button>
         <ToastContainer />
       </div>
         </div>
