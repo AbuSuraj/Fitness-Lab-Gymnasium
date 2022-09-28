@@ -1,8 +1,19 @@
 .list-header{
  display: flex;
+ margin-bottom: 30px;
+ 
 }
 .suraj{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    margin-right: 10px;;
+}
+.personal-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 20px;
+    
 }

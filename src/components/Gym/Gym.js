@@ -13,15 +13,19 @@ const Gym = () => {
     })
     return (
         <div>
-            <h1 className=''>Fitness Lab Gymnasium</h1>
             <div className='Gym-container'>
-              <div className='activities-container'>
+              <div >
+            <h1 className='heading'>Fitness Lab Gymnasium</h1>
+            <h4 className='pick'>Pick today's workout.</h4>
+            <div className='activities-container'>
               {
                     acitivites.map(activity => <Activity
                     key={activity.id}
                     activity ={activity}
                     ></Activity>)
                 }
+            </div>
+            
               </div>
               <div className='list-container'>
                 <List></List>
