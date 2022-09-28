@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "name": "Bridges",
+        "time": 20,
+        "img": "https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/bridge-exercise.png",
+        "description": "This helps strengthen the gluteal and abdominal muscles, which relieves excessive tension in your lower back."
+    },
+    {
+        "id":2,
+        "name": "Squats",
+        "time": 50,
+        "img": "https://marathonhandbook.com/wp-content/uploads/2022/05/How-Many-Squats-Should-I-Do-A-Day-2.jpg",
+        "description": "It makes your glutes strong and burns side and thigh fat. Stand straight and keep your feet flat on the floor 12-15 inches apart."
+    },
+    {
+        "id":3,
+        "name": "Plank",
+        "time": 45,
+        "img": "https://www.mensjournal.com/wp-content/uploads/mf/planks_for_abs_main_0.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+        "description": "It’s an abdominal and core exercise, also known as Hover exercise or Front Plank. Planks make your core strong and stable."
+    },
+    {
+        "id":4,
+        "name": "Ab Crunches",
+        "time": 30,
+        "img": "https://www.popworkouts.com/wp-content/uploads/2012/12/upper-body-crunches.jpg",
+        "description": "Lie on the mat with your back against the ground Bend your knees without removing your feet off the ground Keep your hands behind your head to avoid tension on the head and neck."
+    },
+    {
+        "id":5,
+        "name": "Side Bends",
+        "time": 35,
+        "img": "https://c8.alamy.com/comp/DA7HBD/personal-trainer-doing-dumbbell-side-bends-for-training-his-abs-isolated-DA7HBD.jpg",
+        "description": "It balances your entire body and strengthens and brings flexibility to your spine."
+    },
+    {
+        "id":6,
+        "name": "Leg Lifts or Leg Raises",
+        "time": 30,
+        "img": "https://t3.ftcdn.net/jpg/04/37/51/42/360_F_437514212_QPY8l377O4Wq2TucWqY4BjOwg2OQPbef.jpg",
+        "description": "This exercise helps build the core and calf muscles."
+    },
+    {
+        "id":7,
+        "name": "Burpee",
+        "time": 25,
+        "img": "https://i.ytimg.com/vi/auBLPXO8Fww/maxresdefault.jpg",
+        "description": "It is a full-body exercise that is used in strength training. It not only helps in muscle toning but also aids in weight loss."
+    },
+    {
+        "id":8,
+        "name": "Push ups",
+        "time": 30,
+        "img": "https://lmimirror3pvr.azureedge.net/static/media/26490/262cc67e-73cb-488d-8b78-9a4307c17851/pushups_960x540px.jpg",
+        "description": "This exercise builds the upper body and strengthens your core, including the chest and spinal cord. Push ups are a great free hand exercise for the chest. It’s good for the triceps, back and shoulders."
+    },
+    {
+        "id":9,
+        "name": "Skipping",
+        "time": 60,
+        "img": "https://images.livemint.com/img/2022/02/01/689x388/iStock-1137177479_1643695985910_1643695996770.jpg",
+        "description": "It’s the easiest cardio exercise to get the heart rate up."
+    }
+]
