@@ -17,3 +17,20 @@
     border-radius: 20px;
     
 }
+.make-inline{
+    display: flex;
+    margin-bottom: -30px;
+}
+.make-inline-p{
+font-weight: bold;
+margin-right: 2px;
+}
+.add-break-container{
+ margin:50px 0 ;
+}
+.add-break{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}

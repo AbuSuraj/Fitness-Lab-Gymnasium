@@ -38,7 +38,16 @@ const List = () => {
             </div>
          </div>
 
-       
+         <div className='add-break-container'>
+            <h3>Add a break</h3>
+            <div className='add-break'>
+                <p>{10}s</p>
+                <p>{20}s</p>
+                <p>{30}s</p>
+                <p>{40}s</p>
+            </div>
+         </div>
+         
         </div>
     );
 };
