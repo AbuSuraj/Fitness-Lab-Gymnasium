@@ -40,3 +40,14 @@ margin-right: 2px;
     margin-right: 5px;
     border-radius: px;
 }
+.activity-completed-btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:  35px;
+    margin-right: 25px;
+    background-color:#00FF7F;
+    font-weight: bold;
+    font-size:medium;
+    box-shadow: 5px 5px;
+}

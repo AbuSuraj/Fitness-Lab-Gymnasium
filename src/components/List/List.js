@@ -1,10 +1,10 @@
 import React from 'react';
 import proPic from '../../suraj.jpg';
 import './List.css';
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const List = () => {
-    // const notify = () => toast("Congratulations! you have completed!");
+    const notify = () => toast("Congratulations! you have completed!");
     return (
         <div>
          <div className='list-header'>
@@ -53,7 +53,8 @@ const List = () => {
             <h4>Break Time: {}seconds</h4>
          </div>
          <div>
-      
+        <button className='activity-completed-btn' onClick={notify}>Activity Completed</button>
+        <ToastContainer />
       </div>
         </div>
     );

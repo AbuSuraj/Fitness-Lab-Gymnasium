@@ -16,12 +16,13 @@
     gap:45px;
     margin-top: 20px;
     margin-bottom:  50px ;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .list-container{
     background-color: gainsboro;
     padding-top: 20px;
     padding-left: 10px;
+    padding-right: 10px;
 }
