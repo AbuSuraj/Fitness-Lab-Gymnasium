@@ -1,0 +1,18 @@
+h1{
+    color: red
+}
+
+.Gym-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.activities-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:45px;
+    margin: 100px 50px;
+}
+
+.list-container{
+    background-color: gainsboro;
+}
