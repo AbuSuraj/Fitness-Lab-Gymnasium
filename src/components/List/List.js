@@ -47,7 +47,14 @@ const List = () => {
                 <p>{40}s</p>
             </div>
          </div>
-         
+         <div className='Workout-specifics'>
+            <h3>Workout Specifics</h3>
+            <h4>Exercise Time: {}seconds</h4>
+            <h4>Break Time: {}seconds</h4>
+         </div>
+         <div>
+      
+      </div>
         </div>
     );
 };
