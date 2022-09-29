@@ -73,8 +73,12 @@ const List = ({time}) => {
          </div>
          <div className='Workout-specifics'>
             <h3>Workout Specifics</h3>
-            <h4>Exercise Time: {time} seconds</h4>
-            <h4>Break Time: {breakTime} seconds</h4>
+            <div>
+            <h4>Exercise Time: {time}S</h4>
+            </div>
+            <div>
+            <h4>Break Time: {breakTime}S</h4>
+            </div>
          </div>
          <div>
         <button className='activity-completed-btn' onClick={completed}>Activity Completed</button>

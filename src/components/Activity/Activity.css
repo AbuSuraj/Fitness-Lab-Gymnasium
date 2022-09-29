@@ -35,7 +35,7 @@
 .btn-list{
     margin-top: 10px;
     width: 100%;
-    background: #FFE0B3;
+    background: #A460ED;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -44,6 +44,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: medium;
     }
 .btn-list:hover{
         background-color: orange;

@@ -51,11 +51,14 @@ margin-right: 2px;
     color: white;
     background-color: black;
   }
-.Workout-specifics h4{
+.Workout-specifics div{
     background-color: whitesmoke;
-    padding: 5px;
-    margin-right: 5px;
-    border-radius: px;
+    padding: 1px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.Workout-specifics h4{
+    margin-left: 5px;
 }
 .activity-completed-btn{
     padding: 10px;
