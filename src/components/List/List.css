@@ -36,9 +36,14 @@ margin-right: 2px;
     padding: 10px;
 }
 .add-break button{
+    box-shadow: 5px 5px;
     border-radius: 7px;
     background-color:antiquewhite;
 }
+.add-break button:hover {
+    color: white;
+    background-color: black;
+  }
 .Workout-specifics h4{
     background-color: whitesmoke;
     padding: 5px;

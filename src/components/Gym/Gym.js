@@ -20,6 +20,7 @@ const Gym = () => {
         setTime((current)=>current+selectedActivity.time);
 
     }
+    
     //  console.log(time)
     return (
         <div>
