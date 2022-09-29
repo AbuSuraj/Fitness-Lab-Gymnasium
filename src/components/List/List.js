@@ -74,10 +74,10 @@ const List = ({time}) => {
          <div className='Workout-specifics'>
             <h3>Workout Specifics</h3>
             <div>
-            <h4>Exercise Time: {time}S</h4>
+            <h4>Exercise Time: {time} seconds</h4>
             </div>
             <div>
-            <h4>Break Time: {breakTime}S</h4>
+            <h4>Break Time: {breakTime} seconds</h4>
             </div>
          </div>
          <div>
