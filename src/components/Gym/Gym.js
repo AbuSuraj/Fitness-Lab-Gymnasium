@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Blog from '../Blog/Blog';
 import List from '../List/List';
 import './Gym.css'
 
@@ -20,7 +21,7 @@ const Gym = () => {
         setTime((current)=>current+selectedActivity.time);
 
     }
-    
+
     //  console.log(time)
     return (
         <div>
@@ -45,6 +46,9 @@ const Gym = () => {
                 ></List>
               </div>
             </div> 
+            <div>
+                <Blog></Blog>
+            </div>
         </div>
     );
 };

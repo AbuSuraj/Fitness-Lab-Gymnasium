@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import proPic from '../../suraj.jpg';
 import './List.css';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+  
 import Swal from 'sweetalert2';
 const List = ({time}) => {
 //  console.log(time)
     const [breakTime, setBreakTime] = useState(0)
-    const notify = () => toast("Congratulations! you have completed!");
     const completed = () => {Swal.fire(
         'Good job!',
         'You have completed your todays exercise!',
@@ -31,7 +29,8 @@ const List = ({time}) => {
       })
       
     return (
-        <div>
+        <div className='list-container2'>
+         <div >
          <div className='list-header'>
           <img className='suraj' src={proPic} alt="" />
           <div>
@@ -79,9 +78,10 @@ const List = ({time}) => {
          </div>
          <div>
         <button className='activity-completed-btn' onClick={completed}>Activity Completed</button>
-        <ToastContainer />
       </div>
         </div>
+         </div>
+       
     );
 };
 
