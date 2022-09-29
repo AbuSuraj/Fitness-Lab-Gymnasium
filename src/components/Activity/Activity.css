@@ -1,9 +1,11 @@
 .activity{
     width: 300px;
     height: 460px;
-    border: 1px solid #95A0A7;
-    border-radius: 8px;
+    border: 2px solid #95A0A7;
+    border-radius: 15px;
     position: relative;
+    background-color: #EEEEEE;
+    box-shadow: 5px 5px #EEEEEE ;
 }
 .activity img{
     width: 260px;
@@ -48,4 +50,8 @@
     }
 .btn-text{
         margin-right: 10px;
+    }
+    .clicked {
+        background-color: #97D2EC;
+        color: white;
     }
