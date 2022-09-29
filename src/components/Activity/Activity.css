@@ -42,9 +42,9 @@
     align-items: center;
     justify-content: center;
     }
-    .btn-list:hover{
+.btn-list:hover{
         background-color: orange;
     }
-    .btn-text{
+.btn-text{
         margin-right: 10px;
     }
